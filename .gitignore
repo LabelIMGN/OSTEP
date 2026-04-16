@@ -1,59 +1,24 @@
-### Build artifacts / binaries
-*.o
+### Generic compiled output patterns
 *.out
-*.exe
-*.bin
-*.elf
-*.hex
-*.dump
-*.obj
-a.out
-core
-core.*
+*.o
+*.a
+*.so
 
-### IDE / editor files
+### macOS debug symbols
+*.dSYM/
+
+### Temporary files
+tmp/
+*.tmp
+*.temp
+
+### Editor / IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*.swn
 *~
-*.bak
 .DS_Store
-*.sublime-project
-*.sublime-workspace
 
-### Python (if you have any Python scripts)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-*.egg-info/
-dist/
-build/
-
-### C / C++ build tools
-Makefile.local
-*.d
-*.so
-*.dynlib
-*.dll
-*.lib
-*.a
-
-### Logs and temporary files
+### Logs
 *.log
-*.tmp
-*.temp
-*.pid
-*.sock
-
-### OS / system files
-Thumbs.db
-desktop.ini
-
-### GitGuardian / security
-.ggignore
