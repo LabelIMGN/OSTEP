@@ -1,0 +1,12 @@
+This is the first test file.
+
+
+2 empty lines before This
+one
+
+Some special chars
+!@#$%%^&&*()_+
+
+This is the end of the
+
+first file.
